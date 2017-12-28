@@ -1374,7 +1374,7 @@ body {
 .cid-qF6SOEb1j5 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #150006;
+  background-color: #232323;
 }
 .cid-qF6SOEb1j5 .mbr-slider .carousel-control {
   background: #1b1b1b;
@@ -1397,7 +1397,8 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #554346;
+  background: #150006;
+  background: linear-gradient(to left, #150006, #45505b) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -1406,7 +1407,7 @@ body {
   background: transparent !important;
 }
 .cid-qF6SOEb1j5 .mbr-gallery-item > div:hover:before {
-  opacity: 0.7 !important;
+  opacity: 0.4 !important;
 }
 .cid-qF6SOEb1j5 .mbr-gallery-title {
   font-size: .9em;
@@ -1426,8 +1427,9 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #554346 !important;
-  opacity: 0.7;
+  background: #150006 !important;
+  background: linear-gradient(to left, #150006, #45505b) !important;
+  opacity: 0.4;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
