@@ -84,43 +84,6 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
-            ".line": {
-              "background-color": "@lineColor",
-              "color": "@lineColor",
-              "align": "center",
-              "height": "2px",
-              "margin": "0 auto"
-            },
-            ".section-text": {
-              "padding": "2rem 0",
-              "color": "#ffffff"
-            },
-            ".inner-container": {
-              "margin": "0 auto"
-            },
-            "@media (max-width: 768px)": {
-              ".inner-container": {
-                "width": "100% !important"
-              }
-            },
-            ".section-text DIV": {
-              "text-align": "center"
-            }
-          },
-          "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#e24209\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#150006\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Garden City Kebab Pizza House Open 7 days 12 non-12 midnight<br>52 Welsh Road,\n&nbsp;<span style=\"font-size: 1.5rem;\">Garden City, Deeside, Clwyd CH5 2HU</span><br><span style=\"font-size: 1.5rem;\">Tel: 01244-810268Opening hours\n</span><div><span style=\"font-size: 1.5rem;\">Mon 12:00 PM - 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Tue 12:00 PM - &nbsp;11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Wed 12:00 PM - 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Thu 12:00 PM - 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Fri 12:00 PM - &nbsp; 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Sat 12:00 PM - &nbsp; 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">&nbsp;Sun 03:00 PM - 11:30 PM&nbsp;</span></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
-          "_anchor": "content9-5",
-          "_cid": "qF6jxAgdpa",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
             ".mbr-slider .carousel-control": {
               "background": "#1b1b1b"
             },
@@ -210,8 +173,8 @@
                 "image": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080-800x533.jpg",
                 "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Our Special Dishes",
+                "customStyle1": "display-2",
+                "caption": "<b><a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a></b>",
                 "active": false
               },
               {
@@ -223,7 +186,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-1620x1080-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Our Special Dishes",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
                 "active": false
               },
               {
@@ -235,7 +198,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-1624x1080-800x532.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Our Special Dishes",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
                 "active": false
               },
               {
@@ -247,7 +210,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
                 "active": true
               },
               {
@@ -259,11 +222,48 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
                 "active": false
               }
             ]
           }
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "color": "#ffffff"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#e24209\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#150006\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Garden City Kebab Pizza House Open 7 days 12 non-12 midnight<br>52 Welsh Road,\n&nbsp;<span style=\"font-size: 1.5rem;\">Garden City, Deeside, Clwyd CH5 2HU</span><br><span style=\"font-size: 1.5rem;\">Tel: 01244-810268Opening hours\n</span><div><span style=\"font-size: 1.5rem;\">Mon 12:00 PM - 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Tue 12:00 PM - &nbsp;11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Wed 12:00 PM - 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Thu 12:00 PM - 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Fri 12:00 PM - &nbsp; 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">Sat 12:00 PM - &nbsp; 11:30 PM \n</span></div><div><span style=\"font-size: 1.5rem;\">&nbsp;Sun 03:00 PM - 11:30 PM&nbsp;</span></div><div><span style=\"font-size: 1.5rem;\"><a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\"><b><i>CLICK HERE TO ORDER NOW</i></b></a></span></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_anchor": "content9-5",
+          "_cid": "qF6jxAgdpa",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "_styles": {
