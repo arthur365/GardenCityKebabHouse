@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#ff4200",
         "#d23700",
         "#976a19",
         "#732408",
         "#ffa300",
         "#1e0c05",
-        "#000000",
-        "#40251b"
+        "#000000"
       ]
     },
     "favicon": "",
