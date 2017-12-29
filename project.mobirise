@@ -174,7 +174,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-2",
-                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\" class=\"text-white\">Our Special Dishes Click here Order Now</a>",
                 "active": false
               },
               {
@@ -186,7 +186,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-1620x1080-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\" class=\"text-white\">Our Special Dishes Click here Order Now</a>",
                 "active": false
               },
               {
@@ -198,7 +198,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-1624x1080-800x532.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\" class=\"text-white\">Our Special Dishes Click here Order Now</a>",
                 "active": false
               },
               {
@@ -210,7 +210,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-3-1620x1080-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\" class=\"text-white\">Our Special Dishes Click here Order Now</a>",
                 "active": false
               },
               {
@@ -222,7 +222,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-1593x1080-800x542-800x542.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\" class=\"text-white\">Our Special Dishes Click here Order Now</a>",
                 "active": false
               },
               {
@@ -234,7 +234,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080-800x533-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\">Click here Order Now</a>",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\" class=\"text-white\">Our Special Dishes Click here Order Now</a>",
                 "active": true
               }
             ]
