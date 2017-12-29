@@ -41,7 +41,9 @@
     "noImageResize": "",
     "versionFirst": "4.5.2",
     "uniqCompNum": 28,
-    "versionPublish": "4.5.2"
+    "versionPublish": "4.5.2",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -389,6 +391,18 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080-800x533.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080-800x533-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\" class=\"text-white\">Our Special Dishes Click here Order Now</a>",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/5647-525x396.png",
+                "thumb": "@PROJECT_PATH@/assets/images/5647-525x396-525x396.png",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "<a href=\"https://gardencitykebabhouse.co.uk/our_menu.php\" target=\"_blank\" class=\"text-white\">Our Special Dishes Click here Order Now</a>",
