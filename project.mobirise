@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Garden City Kebab House",
-    "currentPage": "page3.html",
+    "currentPage": "Allergy information.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2080,10 +2080,10 @@
         }
       ]
     },
-    "page3.html": {
+    "Allergy information.html": {
       "settings": {
-        "meta_descr": "Website Maker Description",
-        "title": "Page 3",
+        "meta_descr": "Allergy information",
+        "title": "Allergy information",
         "order": 1
       },
       "components": [
